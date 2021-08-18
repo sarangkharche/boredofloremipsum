@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap'); */
 
 /* :root {
@@ -207,7 +209,7 @@ p {
 
 .btn {
   text-transform: none;
-  background: #64609c;
+  background: rgba(0, 0, 0, 0.605);
   color: rgb(255, 255, 255);
   padding: 0.375rem 0.75rem;
   letter-spacing: 0px;
@@ -222,7 +224,7 @@ p {
 
 .btn:hover {
   color: white;
-  background: rgba(0, 0, 0, 0.605);
+  background: rgb(0, 0, 0);
   border-color: var(--clr-primary-8);
 
   -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
